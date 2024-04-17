@@ -82,6 +82,15 @@ const projectConfig = {
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
 module.exports = {
+  projectConfig: {
+    // ...
+    database_extra: process.env.NODE_ENV !== "development" ?
+      {
+        ssl: {
+          rejectUnauthorized: false,
+        },
+      } : {},
+  },
   projectConfig,
   plugins,
   modules,
