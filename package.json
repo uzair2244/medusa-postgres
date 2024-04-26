@@ -25,7 +25,6 @@
     "start:custom": "cross-env npm run build && node --preserve-symlinks --trace-warnings index.js",
     "dev": "cross-env npm run build:server && medusa develop"
   },
-  
   "dependencies": {
     "@medusajs/admin": "latest",
     "@medusajs/cache-inmemory": "latest",
@@ -35,6 +34,7 @@
     "@medusajs/file-local": "latest",
     "@medusajs/medusa": "latest",
     "@tanstack/react-query": "4.22.0",
+    "@types/multer": "^1.4.11",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "16.3.1",
