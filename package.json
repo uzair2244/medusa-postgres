@@ -5,7 +5,7 @@
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "keywords": [
     "sqlite",
