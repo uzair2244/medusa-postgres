@@ -56,6 +56,12 @@ const plugins = [
 ];
 
 const modules = {
+  // modules: {
+  //   // ...
+  //   inventoryService: {
+  //     resolve: "@medusajs/inventory",
+  //   },
+  // },
   /*eventBus: {
     resolve: "@medusajs/event-bus-redis",
     options: {

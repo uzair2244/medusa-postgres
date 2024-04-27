@@ -34,6 +34,7 @@
     "@medusajs/event-bus-local": "latest",
     "@medusajs/event-bus-redis": "latest",
     "@medusajs/file-local": "latest",
+    "@medusajs/inventory": "^1.11.6",
     "@medusajs/medusa": "latest",
     "@tanstack/react-query": "4.22.0",
     "@types/multer": "^1.4.11",
